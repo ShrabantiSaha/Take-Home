@@ -1,0 +1,41 @@
+.topnav {
+    overflow: hidden;
+    background-color: #4472C4;
+    border:thick;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a.active {
+    color: white;
+  }
+
+  .topnav a:after {
+    content: "|"; padding: 0 .5em;
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 1px;
+  }
+
+  .topnav a:nth-last-child(1):after {
+    content: "";
+  }
+
+  .topnav a:nth-last-child(2):after {
+    content: "";
+  }
+  
+
+  .date {
+    float: right;
+    overflow: hidden;
+  }
